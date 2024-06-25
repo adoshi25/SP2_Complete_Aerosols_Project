@@ -1,5 +1,5 @@
 # Leveraging Variational Autoencoders (VAEs) for Classification of Anthropogenic Aerosols
-Aaryan Doshi
+Author: Aaryan Doshi & Mentor: Dr. Lamb
 ## Project Summary
 This work proposes an unsupervised deep learning method, a variational autoencoder (VAE), applied directly to raw L-II signals from the SP2 in order to classify absorbing aerosols. The VAE compresses L-II signals into a bottleneck latent representation by reconstructing an output similar to the input signal, while maximizing separability of aerosol classes. This method would allow us to easily detect dangerous atmospheric anomalies, generate new training samples from cluster latents, and enable cluster-based label propagation. This work successfully detects and classifies properties of harmful chemical compounds, providing a scalable way to gain much-needed insight into mitigating atmospheric aerosol contribution to global emissions.
 ## Code Structure
